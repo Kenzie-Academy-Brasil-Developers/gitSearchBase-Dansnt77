@@ -1,0 +1,83 @@
+body {
+    background-color: var(--color-grey-2);
+    width: 100vw;
+    height: 100vh;
+}
+main {
+    display: flex;
+    gap: 100px;
+    width: 100%;
+    height: 100%; 
+}
+.description {
+    background-color: var(--color-brand-1);
+    font-family: var(--font-primary);
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.description h1{
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--color-grey-7);
+    margin-bottom: 40px;
+}
+.description p{
+    font-weight: 400;
+    color: var(--color-grey-7);
+    font-size: 16px;
+    width: 80%;
+    line-height: 150%;
+}
+.search-user{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form h2{
+    color: var(--color-grey-7);
+    font-family: var(--font-primary);
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+form p{
+    color: var(--color-grey-7);
+    font-family: var(--font-primary);
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+input{
+    background-color: var(--color-grey-1);
+    border: none;
+    width: 316px;
+    height: 28px;
+    padding: 10px;
+    border-radius: 4px;
+}
+button{
+    font-family: var(--font-primary);
+    width: 316px;
+    border: none;
+    color: var(--color-grey-7);
+    background-color: var(--color-brand-2);
+    border-radius: 4px;
+    height: 38px;
+    cursor: pointer;
+}

@@ -12,10 +12,25 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="../styles/globalStyles.css">
+    <link rel="stylesheet" href="../styles/error.css">
+    
     <title>Git Search - User Not Found</title>
   </head>
   <body>
+    <main>
+      <section class="text-error">
+        <div class="error">
+          <h2>Ooops!</h2>
+          <p>Não encontramos o usuário que você procurou, <span>vamos tentar novamente.</span></p>
+        </div>
+        <button id="btn-newSearch">Nova Busca</button>
+      </section>
+      <section class="img-section">
+        <img src="../assets/Group 102.svg" alt="">
+        <img src="/" alt="">
+      </section>
+    </main>
 
     <script type="module" src="../scripts/error.js"></script>
   </body>

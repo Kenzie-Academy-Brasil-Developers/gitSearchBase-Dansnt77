@@ -1,0 +1,98 @@
+body{
+    background-color: var(--color-grey-2);
+}
+.conteiner{
+    margin: 0 auto;
+    max-width: 50%;
+    margin-top: 50px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    width: 80px;
+    height: 80px;
+    border-radius: 150px;
+    border: solid 2px var(--color-brand-2);
+}
+header button{
+    width: 169px;
+    height: 38px;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    border: none;
+    color: var(--color-grey-7);
+    cursor: pointer;
+
+}
+.img-user{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.img-user h2{
+    color: var(--color-grey-7);
+    font-family: var(--font-primary);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+main{
+    margin-top: 40px;
+}
+main ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    /* max-width: 70%; */
+}
+main li{
+    width: 405px;
+    height: 243px;
+    list-style: none;
+    background-color: var(--color-grey-1);
+    border: 2px solid rgb(255, 255, 255, 0.60);
+    border-radius: 8px;
+    padding: 20px;
+
+}
+main li:hover{
+    border: 2px solid var(--color-grey-7);
+    cursor: pointer;
+}
+li h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--color-grey-7);
+    font-family: var(--font-primary);
+}
+li p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--color-grey-7);
+    font-family: var(--font-primary);
+    color: rgb(255, 255, 255, 0.60);
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+li a{
+    font-style: none;
+    background-color: transparent;
+    border: 1px solid var(--color-grey-7);
+    padding: 5px;
+    text-decoration: none;
+    color: var(--color-grey-7);
+    border-radius: 4px;
+    margin-top: 40px;
+}
+li a:hover{
+    background-color: var(--color-brand-2);
+    border: none;
+}
+
