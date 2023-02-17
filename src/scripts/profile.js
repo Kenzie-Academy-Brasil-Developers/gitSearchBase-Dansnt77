@@ -18,7 +18,7 @@ export async function renderUser(){
     let name = document.createElement("h2")
     
     img.src = user.avatar_url
-    name.innerText = user.name
+    name.innerText = user.login
 
     
     divImgUser.append(img, name)

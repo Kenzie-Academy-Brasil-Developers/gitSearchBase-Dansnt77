@@ -70,6 +70,7 @@ input{
     height: 28px;
     padding: 10px;
     border-radius: 4px;
+    color: rgb(255, 255, 255, 0.50);
 }
 button{
     font-family: var(--font-primary);
